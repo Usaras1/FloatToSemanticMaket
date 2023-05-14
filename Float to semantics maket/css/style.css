@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	width: 1024px;
+	margin: 0 auto;
+}
+header{
+	height: 200px;
+	color: white;
+	background: black;
+	text-align: center;
+	padding: 80px;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	background: blue;
+}
+a:link{
+	background: red;
+}
+a:visited{
+	background: lightgreen;
+}
+a:active{
+	color: green;
+	background: black;
+}
+nav{
+	width: 153.6px;
+	height: 260px;
+	border: 1px solid black;
+	float: left;
+	padding: 20px;
+	background: lightcyan;
+	color: cyan;
+}
+main{
+	max-width: 716.8px;
+	border: 1px solid black;
+	float: left;
+	/*height: 250px;*/
+}
+.london{
+	padding-top: 25px;
+	padding-left: 10px;
+	font-family: cursive;
+}
+.parish{
+	padding-top: 10px;
+	padding-left: 10px;
+	font-family: cursive;
+}
+.tokio{
+	padding-left: 10px;
+	font-family: cursive;
+}
+footer{
+	height: 100px;
+	background: black;
+	clear: both;
+	color: white;
+	text-align: center;
+	padding: 35px;
+}
+p{
+	padding: 6px;
+	padding-left: 10px;
+	font-size: 18px;
+	font-family: cursive;
+}
+li{
+	list-style: none;
+}
+aside{
+	width: 153.6px;
+	height: 260px;
+	float: right;
+	border: 1px solid black;
+	background: lightcyan;
+}
